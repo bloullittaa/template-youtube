@@ -1,0 +1,53 @@
+.header-top{
+  height: 70px; 
+}
+header .header-icon{
+    padding-left: 10px;
+}
+header .header-icon i{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+header .header-top-center input{
+    width: 80%;
+    height: 39.5px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+.logo img{
+margin-top: -35px;
+width: 250px;
+}
+
+header .header-top-center i{
+    border-top: 0.1px solid #ccc;
+    border-right: 0.1px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
+    padding: 9px;
+}
+header .header-top-right i{
+    font-size: 1.8rem;
+}
+header .header-top-right i:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.logo img:nth-child(2) {
+    display: none;
+    width: auto;
+    margin-top: 9px;
+    }
+    
+    
+@media  (max-width: 650px){
+        .logo img:nth-child(2) {
+            display: block;
+          
+            }  
+            .logo img:nth-child(1) {
+                display: none;
+                }  
+                
+               
+    }
