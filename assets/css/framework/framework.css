@@ -99,6 +99,9 @@ i {
 .fixed {
   position: fixed;
 }
+.sticky {
+    position: sticky;
+  }
 .profil-picture img {
   width: 50px;
   border-radius: 50px;
@@ -133,13 +136,20 @@ i {
 
     
 }
+@media screen and (max-width: 1550px) {
+    [class$="m"] {
+      width: 95%;
+      
+    }
+    
+     
+  }
 @media screen and (max-width: 900px) {
   [class$="-xl"] {
     width: 90%;
     
   }
-  [class$="-m"] {
-    width: 80%;}
+  
    
 }
 @media screen and(max-width: 650px) {
