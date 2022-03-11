@@ -38,16 +38,43 @@ header .header-top-right i:hover{
     width: auto;
     margin-top: 9px;
     }
-    
-    
-@media  (max-width: 650px){
-        .logo img:nth-child(2) {
-            display: block;
-          
+    /**header left*/
+
+    header .header-left{
+        z-index: index 9999; 
+        background-color:white ;
+        height:100vh ;
+        width: 250px;
+        display: none;
+    }
+    header .header-left  a{
+        display: block;
+        padding:  10px 5px;
+    }
+    header .header-left  li:hover{
+        background-color: #efefef;
+        font-weight: bold;
+    }
+.library-ithem .fa-youtube{
+    color: red;
+    font-size: 2.2rem;
+}
+.fa-brands:hover{
+    font-size: 2.5rem;
+}
+
+        @media screen and(max-width: 650px)
+{
+.logo img:nth-child(2)
+ {
+    display: block;
             }  
-            .logo img:nth-child(1) {
+.logo img:nth-child(1) {
                 display: none;
                 }  
-                
+                header .header-left{
+                   width: 100%; 
+                }         
+ }     
                
-    }
+    
