@@ -104,7 +104,7 @@ i {
   }
 .profil-picture img {
   width: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 [class$="-xl"] {
   width: 89%;
